@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    padding: 1rem;
+}
+
+
+main{
+    padding: 1rem;
+    padding-top: 3rem;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+
+.view-1{
+    width: 100%;
+    p{
+        font-weight: 200;
+        opacity: 0.8;
+    }
+
+    h1{
+        font-size: 3.8rem;
+        font-weight: 200;
+        width: 80%;
+    }
+
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
